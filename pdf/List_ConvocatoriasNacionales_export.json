@@ -1,0 +1,162 @@
+
+pdfDocument = {
+{BEGIN backgroundImage}
+	background: {
+		image: {$backgroundImage},
+		{BEGIN bgWidth}
+		imgWidth: {$bgWidth},
+		imgHeight: {$bgHeight},
+		{END bgWidth}
+	},
+{END backgroundImage}
+	styles: {
+				bodycell: {
+			fontSize:12,
+		},
+		headcell: {
+			fontSize:12,
+			bold: true
+		},
+
+	
+	},
+	defaultStyle: {
+		fontSize: 14,
+	},
+	"content": [
+								
+{
+	table: {
+	
+				
+		location: 'top',
+		
+		
+		widths: [
+								"*", 
+					 ],	
+		
+	
+		body: [
+				
+				[
+																{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+		
+			
+	
+	
+			"text": [
+		
+				
+			{"text":"{$jspagetitlelabel List_ConvocatoriasNacionales export}","hidden":"{$item_hide_export_header}","fontSize":30},
+				
+		  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'left',
+  },
+
+											],
+		
+		]
+	}
+}
+,
+		
+				
+								
+{
+	table: {
+	
+				
+		location: 'grid',
+		
+		
+		widths: [
+								"%", 
+					 ],	
+		
+			heights: [
+								
+			"%",
+			 
+				],
+	
+		body: [
+				
+				[
+																{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+		
+			
+	
+	
+			"text": [
+		
+				
+			{"text":{$PersonaDNI_iConvocatoriasNacionales_pdfvalue},"hidden":"{$item_hide_export_field}"},
+				
+				
+			{"text":{$PersonaApellidoNombre_iConvocatoriasNacionales_pdfvalue},"hidden":"{$item_hide_export_field1}"},
+				
+				
+			{"text":{$PersonaFechaNacimiento_iConvocatoriasNacionales_pdfvalue},"hidden":"{$item_hide_export_field2}"},
+				
+				
+			{"text":{$PersonaProvinciaReside_iConvocatoriasNacionales_pdfvalue},"hidden":"{$item_hide_export_field3}"},
+				
+				
+			{"text":{$Personaemail_iConvocatoriasNacionales_pdfvalue},"hidden":"{$item_hide_export_field4}"},
+				
+				
+			{"text":{$PersonaTelefonoContacto_iConvocatoriasNacionales_pdfvalue},"hidden":"{$item_hide_export_field5}"},
+				
+				
+			{"text":{$PuestoTrabajoPostula_iConvocatoriasNacionales_pdfvalue},"hidden":"{$item_hide_export_field6}"},
+				
+				
+			{"text":{$ResidenciaCompleta_iConvocatoriasNacionales_pdfvalue},"hidden":"{$item_hide_export_field7}"},
+				
+				
+			{"text":{$ResidenciaEspecialidad_iConvocatoriasNacionales_pdfvalue},"hidden":"{$item_hide_export_field8}"},
+				
+				
+			{"text":{$PersonaTituloEspecialista_iConvocatoriasNacionales_pdfvalue},"hidden":"{$item_hide_export_field9}"},
+				
+				
+			{"text":{$PersonaEspecialidadCertificada_iConvocatoriasNacionales_pdfvalue},"hidden":"{$item_hide_export_field10}"},
+				
+				
+			{"text":{$ConvocatoriaDifusion_iConvocatoriasNacionales_pdfvalue},"hidden":"{$item_hide_export_field11}"},
+				
+				
+			{"text":{$TituloGrado_iConvocatoriasNacionales_pdfvalue},"hidden":"{$item_hide_export_field12}"},
+				
+				
+			{"text":{$RegistroFechaHora_iConvocatoriasNacionales_pdfvalue},"hidden":"{$item_hide_export_field13}"},
+				
+		  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'left',
+  },
+
+											],
+		
+		]
+	}
+}
+,
+		
+					]
+}
+  
